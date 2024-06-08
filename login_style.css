@@ -1,0 +1,88 @@
+body{
+    background-image: url("images/bg.png");
+}
+.ligne{
+    padding-top: 3.4%;
+
+}
+.colomn1{
+    color: rgb(0, 0, 0);
+    direction: rtl;
+    text-align: center;
+    padding-top: 7.7%;
+    height: 655px;
+    
+    background: linear-gradient(rgba(255, 255, 116, 0.645),rgba(255, 225, 168, 0.748));
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-top-right-radius:50px ;
+    border-bottom-right-radius:50px ;
+    
+
+/*  */
+
+
+
+
+}
+form{
+    margin-left: 1cm;
+}
+.colomn1 p{
+    margin-top: 2cm;
+    font-size: x-large;
+
+}
+.colomn1 h1{
+    color: rgb(0, 0, 0);
+    font-size: 60px;
+}
+.colomn2{
+    height: 200px;
+    
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+}
+.submit{
+    width: 450px;
+}
+.ligne input[type="password"]{
+    width: 90%;  
+    
+}
+.ligne input[type="text"]{
+    width: 90%;  
+}
+@media only screen and (max-width: 600px) {
+    .colomn1{
+        display: none;
+    }
+   
+    .col-5.ligne {
+        width:250px;
+        margin-left: 1.2cm;
+        margin-top: 1cm;
+
+}
+    img{
+        margin-left: 0.85cm;
+    }
+    h1{
+        margin-left: 0.85cm;
+
+    }
+    .ligne input[type="text"]{
+        width: 128%;
+
+    }
+    .ligne input[type="password"]{
+        width: 128%;  
+    }
+    .submit{
+        width: 128%;
+    }
+}

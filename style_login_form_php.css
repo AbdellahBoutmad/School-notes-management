@@ -1,0 +1,40 @@
+body {
+    background-image: url("images/bg.png");
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    padding-top: 0; 
+}
+
+.element {
+    background: #f1faee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 490px;
+    margin-top: 4%;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+    font-size: xx-large;
+    text-decoration: none;
+    color: #1d3557;
+    font-weight: bold;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.element:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+.element:active {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+}
